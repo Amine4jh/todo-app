@@ -41,4 +41,5 @@ A lightweight and responsive Todo List web app built with **HTML**, **CSS**, and
 
 ## 📸 Mobile View
 
-![Mobile Design](mobile-design.jpg)
+![Mobile Light Design](mobile-design-light.jpg)
+![Mobile Dark Design](mobile-design-dark.jpg)
