@@ -47,7 +47,7 @@ function updateData(ar) {
         let taskSpan = document.createElement("span")
         let checkCircle = document.createElement("div")
         let crossIcon = document.createElement("img")
-        checkCircle.innerHTML = '<img id="check" src="/images/icon-check.svg">'
+        checkCircle.innerHTML = '<img id="check" src="images/icon-check.svg">'
         taskSpan.innerHTML = i.name
         taskSpan.insertBefore(checkCircle, taskSpan.childNodes[0])
         task.appendChild(taskSpan)
