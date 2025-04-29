@@ -1,57 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Todo app</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <div class="container">
-    <div class="header">
-      <div class="title">
-        <h1>TODO</h1>
-        <img src="images/icon-moon.svg">
-      </div>
-      <div class="input">
-        <div></div>
-        <input type="text" id="input-box" placeholder="Create a new todo...">
-      </div>
-    </div>
-    <div class="content">
-      <div class="list-container">
-        <ul class="empty">
-          <h6>Add a todo to see it here!</h6>
-          <!-- <li class="checked"><span><div><img src="images/icon-check.svg"></div>Task 1</span><img id="cross" src="images/icon-cross.svg"></li>
-          <li><span><div><img src="images/icon-check.svg"></div>Task 2</span><img id="cross" src="images/icon-cross.svg"></li> -->
-
-        </ul>
-        <div class="options">
-          <div class="items"><span id="count">0</span> items left</div>
-          <div class="filter">
-            <span id="all" class="checked">All</span>
-            <span id="active">Active</span>
-            <span id="completed">Completed</span>
-          </div>
-          <span id="clear">Clear Completed</span>
+    <title>Frontend Mentor | Todo app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="title">
+          <h1>TODO</h1>
+          <img src="images/icon-moon.svg" />
+        </div>
+        <div class="input">
+          <div></div>
+          <input
+            type="text"
+            id="input-box"
+            placeholder="Create a new todo..."
+          />
         </div>
       </div>
-      <div class="filter-mobile">
-        <span id="all" class="checked">All</span>
-        <span id="active">Active</span>
-        <span id="completed">Completed</span>
+      <div class="content">
+        <div class="list-container">
+          <ul class="empty">
+            <h6>Add a todo to see it here!</h6>
+            <!-- <li class="checked"><span><div><img src="images/icon-check.svg"></div>Task 1</span><img id="cross" src="images/icon-cross.svg"></li>
+          <li><span><div><img src="images/icon-check.svg"></div>Task 2</span><img id="cross" src="images/icon-cross.svg"></li> -->
+          </ul>
+          <div class="options">
+            <div class="items"><span id="count">0</span> items left</div>
+            <div class="filter">
+              <span id="all" class="checked">All</span>
+              <span id="active">Active</span>
+              <span id="completed">Completed</span>
+            </div>
+            <span id="clear">Clear Completed</span>
+          </div>
+        </div>
+        <div class="filter-mobile">
+          <span id="all" class="checked">All</span>
+          <span id="active">Active</span>
+          <span id="completed">Completed</span>
+        </div>
+        <p>Drag and drop to reorder list</p>
       </div>
-      <p>Drag and drop to reorder list</p>
     </div>
-  </div>
 
-  
-<script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.6/Sortable.min.js"></script>
-<script src="main.js"></script>
-
-</body>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.6/Sortable.min.js"></script>
+  </body>
 </html>

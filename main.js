@@ -2,9 +2,9 @@ const container = document.querySelector(".container")
 const darkMode = document.querySelector(".title img")
 darkMode.addEventListener("click", function() {
     if (container.classList.contains("dark")) {
-        darkMode.src = "/images/icon-moon.svg"
+        darkMode.src = "images/icon-moon.svg"
     } else {
-        darkMode.src = "/images/icon-sun.svg"
+        darkMode.src = "images/icon-sun.svg"
     }
     container.classList.toggle("dark")
     setAppearence()
@@ -52,7 +52,7 @@ function updateData(ar) {
         taskSpan.insertBefore(checkCircle, taskSpan.childNodes[0])
         task.appendChild(taskSpan)
         task.appendChild(crossIcon)
-        crossIcon.src = "/images/icon-cross.svg"
+        crossIcon.src = "images/icon-cross.svg"
         crossIcon.id = "cross"
         listContainer.appendChild(task)
         listContainer.classList.remove("empty")
